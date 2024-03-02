@@ -1,0 +1,74 @@
+/* Styles for navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    height: 100px;
+}
+
+/* Styles for contact info */
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info > div {
+    /* margin-right: 20px; */
+    margin: 0;
+    padding: 0;
+    height: 30px;
+}
+
+/* Styles for tabs */
+.tabs a {
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+}
+
+.tabs a:hover {
+    /* font-weight: bold; */
+    text-decoration: underline;
+}
+
+
+
+/* about style  */
+#about{
+    height: 80vh;
+}
+.about-section {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.left-div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-div img {
+    width: 372px; /* Adjust as needed */
+    height: 372px; /* Maintain aspect ratio */
+    margin-right: 20px; /* Spacing between image and text */
+}
+
+.right-div {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.name-div h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.details-div p {
+    font-size: 16px;
+    line-height: 1.5;
+}
