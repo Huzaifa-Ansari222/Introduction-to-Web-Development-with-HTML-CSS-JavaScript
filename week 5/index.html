@@ -44,16 +44,122 @@
     </section>
 
     <section id="skills">
-        <!-- Skills section content -->
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="./img/html-icon.webp" height="40px">
+                <h4>HTML</h4>
+                <b>4 year experience</b>
+            </div>
+            <div class="grid-item">
+                <img src="./img/css.webp" height="40px">
+                <h4>CSS</h4>
+                <b>4 year experience</b>
+            </div>
+            <div class="grid-item">
+                <img src="./img/jss.png" height="40px">
+                <h4>JAVASCRIPT</h4>
+                <b>3 year experience</b>
+            </div>
+            <div class="grid-item">
+                <img src="./img/reactjss.png" height="40px">
+                <h4>REACT.JS</h4>
+                <b>2 year experience</b>
+            </div>
+            <div class="grid-item">
+                <img src="./img/javaa.png" height="40px">
+                <h4>JAVA</h4>
+                <b>3 year experience</b>
+            </div>
+            <div class="grid-item">
+                <img src="./img/pythonn.png" height="40px" >
+                <h4>PYTHON</h4>
+                <b>2 year experience</b>
+            </div>
+        </div>
     </section>
 
-    <section id="projects">
-        <!-- Projects section content -->
+    <section id="projects" >
+    <div class="project">
+        <h1 class="project-title">Projects</h1>
+
+        <div class="project-title">Project 1: Web Development</div>
+        <div class="project-description">
+            <p>Developed a responsive website using HTML, CSS, and JavaScript.</p>
+            <ul class="bullet-points">
+            <li>Implemented modern design principles</li>
+            <li>Optimized performance for various devices</li>
+            <li>Integrated interactive features and animations</li>
+            </ul>
+        </div>
+        </div>
+
+        <div class="project">
+        <div class="project-title">Project 2: Data Analysis</div>
+        <div class="project-description">
+            <p>Conducted exploratory data analysis on a large dataset using Python.</p>
+            <ul class="bullet-points">
+            <li>Cleaned and preprocessed data for analysis</li>
+            <li>Performed statistical analysis and visualization</li>
+            <li>Generated actionable insights and recommendations</li>
+            </ul>
+        </div>
+        </div>
+    
+    <div class="project">
+        <div class="project-title">Project 3: Mobile App Development</div>
+        <div class="project-description">
+            <p>Designed and developed a cross-platform mobile app using React Native.</p>
+            <ul class="bullet-points">
+            <li>Implemented user-friendly interface and navigation</li>
+            <li>Integrated API calls and database functionalities</li>
+            <li>Tested app performance and resolved bugs</li>
+            </ul>
+        </div>
+    </div>
     </section>
 
     <section id="recommendations">
-        <!-- Recommendations section content -->
+        <h1 style="margin-left: 100px;">Recommendations</h1>
+        <div class="grid-container-r">
+            <div class="grid-item-r">
+                .. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, repudiandae consectetur? Consequuntur et vitae, sapiente quae tempora in, quaerat ullam asperiores dolorum, sequi eos veniam aspernatur officia earum maxime voluptatum.
+            </div>
+            <div class="grid-item-r">
+                .. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, repudiandae consectetur? Consequuntur et vitae, mpora in, quaerat ullam asperiores dolorum, sequi eos veniam aspernatur officia earum maxime voluptatum.
+            </div>
+            <div class="grid-item-r">
+                .. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, repudiandae consectetur? Consequuntur et vitae, sapiente quae tempora in, quaerat ullam asperiores dolorumearum maxime voluptatum.
+            </div>
+            <div class="grid-item-r">
+                .. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, repudiandae consectetur? Consequuntur et vitae, sapiente quae tempora in, quaerat ullam asperiores dolorum, sequi eos veniam aspernatur officia 
+            </div>
+        </div>
     </section>
+
+    <h1 style="margin-left: 40%;">Leave Recommendations</h1>
+<form id="recommendation-form">
+    <label for="name">Name (Optional):</label>
+    <input type="text" id="name" name="name">
+    <br>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+    <br>
+    <button type="submit">Submit</button>
+  </form>
+  
+  <div id="popup" style="display: none;">
+    <br> 
+    <p id="popup-text">Thanks for leaving a recommendation!</p>
+    <br> <br> <br>
+    <button id="ok-button">OK</button>
+  </div>
+
+<div class="footer" style="position: relative; width: 80%; margin: auto; margin-bottom: 40px;">
+    <div style="height: 50px; width: 50px; border-radius: 50%; position: absolute; right: 0;text-align: center;margin-top: 0px;
+    background-color: black; color:white;">
+    ↑
+    </div>
+</div>
 
     <script src="script.js"></script>
 </body>
