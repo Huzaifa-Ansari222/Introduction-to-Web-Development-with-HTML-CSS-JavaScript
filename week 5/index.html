@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="navbar">
+    <div class="navbar" id="navv">
         <div class="contact-info">
             <div>
                 <p>Tamanna Perveen</p>
@@ -43,7 +43,7 @@
         </div>    
     </section>
 
-    <section id="skills">
+    <section id="skills" style="height: 80vh; display: flex; align-items: center;">
         <div class="grid-container">
             <div class="grid-item">
                 <img src="./img/html-icon.webp" height="40px">
@@ -78,7 +78,7 @@
         </div>
     </section>
 
-    <section id="projects" >
+    <section id="projects" style="height: 80vh; display: flex; align-items: center; flex-direction: column;">
     <div class="project">
         <h1 class="project-title">Projects</h1>
 
@@ -118,8 +118,8 @@
     </div>
     </section>
 
-    <section id="recommendations">
-        <h1 style="margin-left: 100px;">Recommendations</h1>
+    <section id="recommendations" >
+        <h1 style="margin-left: 100px;">Recommendations</h1> <br>
         <div class="grid-container-r">
             <div class="grid-item-r">
                 .. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, repudiandae consectetur? Consequuntur et vitae, sapiente quae tempora in, quaerat ullam asperiores dolorum, sequi eos veniam aspernatur officia earum maxime voluptatum.
@@ -135,9 +135,11 @@
             </div>
         </div>
     </section>
+    <br><br><br><br>
 
     <h1 style="margin-left: 40%;">Leave Recommendations</h1>
-<form id="recommendation-form">
+
+    <form id="recommendation-form">
     <label for="name">Name (Optional):</label>
     <input type="text" id="name" name="name">
     <br>
@@ -155,14 +157,14 @@
   </div>
 
 <div class="footer" style="position: relative; width: 80%; margin: auto; margin-bottom: 40px;">
-    <a href="#home">
+    <a href="#navv">
           <div style="height: 50px; width: 50px; border-radius: 50%; position: absolute; right: 0;text-align: center;margin-top: 0px;
             background-color: black; color:white;">
             ↑
             </div>
     </a>
 </div>
-
+<br><br><br><br>
     <script src="script.js"></script>
 </body>
 </html>
